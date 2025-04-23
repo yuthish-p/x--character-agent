@@ -1,0 +1,5 @@
+twikit
+tweepy
+python-dotenv
+schedule
+openai==0.28

@@ -1,26 +1,30 @@
-# Ignore Python bytecode files
+# Bytecode files
 __pycache__/
 *.py[cod]
 
-# Ignore virtual environment directories
+# Virtual environment directories
 venv/
 .venv/
+env/
 ENV/
-.env/
-env
-# Ignore environment variable files
+env/
+
+# Environment variable files
 .env
 
-# Ignore log files
+# Log files
 *.log
 
-# Ignore Jupyter notebook checkpoints
+# Jupyter notebook checkpoints
 .ipynb_checkpoints/
 
-# Ignore test coverage reports
+# Coverage reports
 .coverage
 
-.cookies
+# Python package build artifacts
 *.egg-info/
 dist/
 build/
+
+# Cookie and session files
+.cookies

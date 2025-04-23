@@ -7,7 +7,7 @@ venv/
 .venv/
 ENV/
 .env/
-
+env
 # Ignore environment variable files
 .env
 
